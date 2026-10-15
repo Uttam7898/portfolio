@@ -53,13 +53,13 @@ const questionConfig = [
 
 // Helper drawer data
 const specialQuestions = [
-  'Mountain Bike you said?? Show me!',
+  'Tell me about your coding journey',
   'Who are you?',
   'Can I see your resume?',
   'What projects are you most proud of?',
   'What are your skills?',
   'How can I reach you?',
-  "What's the craziest thing you've ever done?",
+  "What are your hobbies?",
 ];
 
 const questionsByCategory = [
@@ -98,7 +98,7 @@ const questionsByCategory = [
     icon: GraduationCapIcon,
     questions: [
       'What are your skills?',
-      'How was your experience at École 42?',
+      'Tell me about your college and coding club leadership',
     ],
   },
   {
@@ -106,8 +106,8 @@ const questionsByCategory = [
     name: 'Fun',
     icon: PartyPopper,
     questions: [
-      'Mountain Bike you said?? Show me!',
-      "What's the craziest thing you've ever done?",
+      'What do you like to do outside of coding?',
+      "What are your hobbies?",
       'Mac or PC?',
       'What are you certain about that 90% get wrong?',
       'I love solving problems',

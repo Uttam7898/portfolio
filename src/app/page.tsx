@@ -43,13 +43,13 @@ export default function Home() {
   const goToChat = (query: string) =>
     router.push(`/chat?query=${encodeURIComponent(query)}`);
 
-  /* hero animations (unchanged) */
+  /* hero animations */
   const topElementVariants = {
     hidden: { opacity: 0, y: -60 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { type: 'ease', duration: 0.8 },
+      transition: { duration: 0.8, ease: 'easeOut' as const },
     },
   };
   const bottomElementVariants = {
@@ -57,7 +57,7 @@ export default function Home() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { type: 'ease', duration: 0.8, delay: 0.2 },
+      transition: { duration: 0.8, delay: 0.2, ease: 'easeOut' as const },
     },
   };
 
